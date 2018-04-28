@@ -1,0 +1,10 @@
+1. ifconfig -l
+2. ipconfig getifaddr en0
+3. networksetup -getmacaddress en1
+4. route get default | greap gateway
+5. dig +short slash16.org
+6. /etc/resolv.conf says that Mac uses scutil --dns
+7. nslookup slash16.org 8.8.8.8
+8. Did a reverse DNS lookup with host to 52.84.245.242 (host 52.84.245.242) and
+got server-52-84-245-242.sfo20.r.cloudfront.net which is Amazon Web Service
+9. 
